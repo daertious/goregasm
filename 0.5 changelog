@@ -1,0 +1,171 @@
+# GOREGASM — Dev Log 0.5
+
+## Overview
+Update 0.5 focuses on **foundational systems**, stability, and long-term structure.
+The goal of this update is not content volume, but creating a solid base for future expansions (intimacy systems, rooms, performance, and player feedback tools).
+
+---
+
+## New Dimension & Room Structure
+
+Added a **small hub dimension** leading to a central hall with **three doors**:
+
+- Jane’s Room  
+- Demon’s Room (Player Room)  
+- Witch’s Room  
+
+Each room is designed to lead to its **own separate dimension**, introducing unique mechanics and systems.
+
+Current state:
+- Jane’s Room → **first active room**
+- Demon’s Room → planned, not accessible yet
+- Witch’s Room → planned, not accessible yet
+
+This structure allows modular expansion without breaking core gameplay.
+
+---
+
+## Jane Rework – Focus of Update 0.5
+
+### Intimate / Relationship System
+- Relationship progression tied to **short quests**
+- Intimacy levels unlock:
+  - new dialogues
+  - lore fragments
+  - NSFW scenes
+- Dialogues evolve with progression
+
+All of Jane’s dialogues now have **full voiceover**.
+
+---
+
+## JOI System (Work in Progress)
+
+JOI system is located **inside Jane’s Room**.
+
+Design philosophy:
+- Simplified JOI compared to projects where JOI is the main gameplay
+- Acts as a **supporting intimacy system**, not the core loop
+- Integrated into GOREGASM’s pacing and atmosphere
+
+Current features:
+- **Beat system during Edge Phase**
+- Multiple **small animation variations**
+- **Text dialogue box** (commands / dialogue from Jane)
+- **Basic settings**:
+  - session duration
+  - room for expansion later
+
+Still in progress:
+- Additional animation sets for Jane
+- Timing balance between phases
+- Animation pacing and transitions
+
+Visual showcase planned once animations reach a presentable state.
+
+---
+
+## Skill Points Exchange – Rework
+
+Previous behavior:
+- Required replaying an NSFW scene every time
+
+New behavior:
+- **Instant exchange**
+- No forced scene replay
+- Preserves intimacy system while respecting player time
+
+---
+
+## Wardrobe System (Early Framework)
+
+- Base system for future outfits
+- Currently allows:
+  - equipping
+  - removing  
+  parts of Jane’s default outfit
+
+System is intentionally minimal for now, focused on future expandability.
+
+---
+
+## Graphics & Settings Improvements
+
+### DirectX Selection
+- Added **DX11 / DX12 selection**
+- Game now launches in **DX11 by default**
+- DX12 available manually via settings
+- Visual differences noticeable in lighting and shadows
+- Active DirectX version displayed on-screen (e.g. D3D11)
+
+Reason:
+- DX12-only launch caused performance and startup issues for some players
+
+---
+
+### Restart-Required Settings
+- Some settings now require a **game restart**
+- These options are clearly marked
+- Warning popup appears when exiting settings if restart is needed
+
+---
+
+### Anti-Aliasing
+- Added **DLAA**
+- Requires community testing due to hardware variety
+- Single-system limitation on dev side
+
+---
+
+## Bug Report System
+
+Added an in-game **Bug Report tool**.
+
+Available:
+- in menu
+- during gameplay
+- during combat
+
+Allows players to submit:
+- bugs (critical / minor)
+- technical issues
+- suggestions
+- general feedback
+
+Each report includes:
+- title
+- report type
+- description
+- screenshot
+- log file (if error occurred)
+
+Reports are delivered to a **private Discord channel**, making debugging faster and more precise.
+
+---
+
+## Community & Infrastructure
+
+- Discord invite system updated
+- New invites embedded in:
+  - websites
+  - future GOREGASM versions
+- Older Sacred Lust builds cannot update embedded links
+- Future projects will use **online-updatable links**
+
+---
+
+## Development Notes
+
+- Update 0.5 is about **systems, structure, and stability**
+- Content depth will follow once systems are solid
+- Heavy reliance on community testing due to hardware diversity
+- Foundation laid for:
+  - expanded JOI content
+  - additional dimensions
+  - deeper character interaction
+
+---
+
+## Status
+Update 0.5 — **in active development**
+
